@@ -1,0 +1,84 @@
+*{
+    background: #d3c3b9;
+    font-family: montserrat;
+}
+
+
+.title-section span{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 8vmin;
+    text-transform: uppercase;
+}
+
+.title-section h1{
+    font-family: montserrat;
+    font-weight: 900;
+    font-size: 8vmin;
+    text-transform: uppercase;
+}
+
+.title-section h2{
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 5vmin;
+    text-transform: uppercase;
+}
+
+.links{
+    margin-top: 60px;
+}
+
+.links a,
+.bttns{
+    font-size: 1.5vmin;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    padding: 10px 30px;
+    border: 1px solid #35312f;
+    border-radius: 20px;
+    transition: all .2s;
+}
+
+.bttns{
+    display: inline;
+}
+
+.links a:hover,
+.bttns:hover{
+    background: #35312f;
+    color: #d3c3b9;
+    border: 1px solid d3c3b9;
+}
+
+.section-wraper .table{
+    border: 1px solid #35312f;
+}
+
+.section-wraper .table tbody td,
+.section-wraper .table tbody td div{
+    background: #f5e3d8;
+    border: 1px solid #35312f;
+}
+
+.section-wraper .table tbody td div{
+    border: none;
+}
+
+nav{
+    border: none;
+    font-size: larger;
+    font-weight: 500;
+}
+
+nav li{
+    margin: 0 40px;
+}
+
+input[type="text"],
+input[type="date"],
+ textarea {
+    background-color : #e9ded7; 
+    border: none;
+  }
